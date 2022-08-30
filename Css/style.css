@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header h1{
+    text-align: center;
+    margin-top: 20px;
+}
+#main{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card1{
+    height: 23rem;
+    width: 15rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.image-section{
+    width: 15rem;
+
+
+}
+.image-section img{
+    height: 15rem;
+    width: 14.9rem;
+    border-radius: 5px 5px 0px 0px;
+    
+
+}
+.details{
+    padding-left: 4px;
+}
+.price{
+    color: #F97829;
+}
+.title{
+    color: #0fa847;
+}
+.card-size{
+    position: relative;
+    width: 30rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #0fa847 !important;
+    display: grid;
+    place-content: center;
+
+}
